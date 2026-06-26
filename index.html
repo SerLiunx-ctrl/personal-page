@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vincent Zhang | Personal Homepage</title>
+    <meta
+      name="description"
+      content="Vincent Zhang 的个人静态主页，聚焦 Java 工程抽象、系统底层、硬件研发与复杂生态下的工程实践。"
+    />
+    <link rel="icon" type="image/png" sizes="64x64" href="./assets/favicon-rounded-64.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="./assets/favicon-rounded-512.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png" />
+    <link rel="shortcut icon" type="image/png" href="./assets/favicon-rounded-64.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#home">SerLiunx-ctrl</a>
+        <div class="topbar-actions">
+          <nav class="nav">
+            <a href="#about">关于</a>
+            <a href="#projects">技术图谱</a>
+            <a href="#contact">联系</a>
+          </nav>
+          <button class="theme-toggle" id="theme-toggle" type="button" aria-label="切换深色模式">
+            <span class="theme-toggle-icon" aria-hidden="true">◐</span>
+            <span class="theme-toggle-label">Dark</span>
+          </button>
+        </div>
+      </header>
+
+      <main id="home">
+        <section class="hero reveal">
+          <div class="hero-copy">
+            <p class="eyebrow">PERSONAL LANDING PAGE</p>
+            <h1>Vincent Zhang</h1>
+            <p class="hero-subtitle">把长期学习沉淀成可复用的工程能力。</p>
+            <p class="lead">
+              这个页面更像一张个人技术画像，集中整理我当前持续投入的方向与关注点。
+              重点放在 Java 工程抽象、系统底层能力、硬件研发视角，以及复杂生态下的兼容、配置与协同实践。
+              它不是仓库清单，而是对长期技术路线的一次简洁表达。
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="https://github.com/SerLiunx-ctrl" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="button secondary" href="https://www.serliunx.com" target="_blank" rel="noreferrer">Blog</a>
+            </div>
+          </div>
+
+          <aside class="profile-card reveal">
+            <img src="./assets/avatar.jpg" alt="Vincent Zhang avatar" class="avatar" />
+            <p class="card-label">PROFILE</p>
+            <h2>SerLiunx-ctrl</h2>
+            <p class="card-role">Driver · Builder · System Explorer</p>
+            <ul class="profile-list">
+              <li>Learning is a lifelong matter.</li>
+              <li>StayHomeless</li>
+              <li>Java / System / Hardware / Engineering</li>
+            </ul>
+          </aside>
+        </section>
+
+        <section id="about" class="section reveal">
+          <div class="section-heading">
+            <p class="eyebrow">ABOUT</p>
+            <h2>从兴趣延伸到结构化构建</h2>
+          </div>
+          <div class="about-grid">
+            <article class="info-panel">
+              <h3>工作方式</h3>
+              <p>
+                更偏向把经验沉淀成可迁移的工具、状态模型、事件机制和系统结构，而不是停留在一次性实现层面。
+              </p>
+            </article>
+            <article class="info-panel">
+              <h3>长期关注</h3>
+              <p>
+                关注抽象边界、运行时行为、调试过程和工程验证，希望把学习转化成真正能够复用的能力资产。
+              </p>
+            </article>
+            <article class="info-panel">
+              <h3>技术关键词</h3>
+              <ul class="tag-list">
+                <li>Java</li>
+                <li>Backend Engineering</li>
+                <li>System Design</li>
+                <li>Hardware R&amp;D</li>
+                <li>Performance Tuning</li>
+                <li>Concurrency</li>
+                <li>Protocol Communication</li>
+                <li>Compatibility Engineering</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section id="projects" class="section reveal">
+          <div class="section-heading">
+            <p class="eyebrow">ENGINEERING MAP</p>
+            <h2>当前更关注的三条主线</h2>
+          </div>
+          <div class="focus-grid">
+            <article class="focus-card">
+              <span class="focus-index">01</span>
+              <h3>Java 基建与工程抽象</h3>
+              <p>
+                围绕集合、事件、状态、配置组织等共性问题沉淀基础能力，让上层业务建立在更稳定的抽象之上。
+              </p>
+            </article>
+            <article class="focus-card">
+              <span class="focus-index">02</span>
+              <h3>系统底层与硬件研发</h3>
+              <p>
+                持续关注并发调度、资源边界、通信链路、板级联调、调试工具和工程验证流程，逐步把视角向更底层推进。
+              </p>
+            </article>
+            <article class="focus-card">
+              <span class="focus-index">03</span>
+              <h3>复杂生态下的工程实践</h3>
+              <p>
+                关注兼容性治理、配置组织、协作流程与生态延续性，把兴趣场景中的复杂问题转化成可维护的工程实践。
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section reveal">
+          <div class="section-heading">
+            <p class="eyebrow">METHOD</p>
+            <h2>这个页面想表达的几件事</h2>
+          </div>
+          <div class="timeline-list">
+            <article class="timeline-item">
+              <h3>长期学习</h3>
+              <p>不是一次性的作品展示，而是持续累积的工程实践与判断力。</p>
+            </article>
+            <article class="timeline-item">
+              <h3>工具化思维</h3>
+              <p>倾向于把经验整理成组件、机制和结构，而不是只解决眼前问题。</p>
+            </article>
+            <article class="timeline-item">
+              <h3>系统视角</h3>
+              <p>更关心问题在运行时如何发生、如何观测、如何验证，而不是只看功能表象。</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="contact" class="section contact reveal">
+          <div>
+            <p class="eyebrow">CONTACT</p>
+            <h2>继续了解这条技术路线</h2>
+            <p>
+              想看更完整的代码轨迹，直接去 GitHub；想看更个人化的表达和记录，可以访问博客。
+            </p>
+          </div>
+          <div class="contact-actions">
+            <a class="button primary" href="https://github.com/SerLiunx-ctrl" target="_blank" rel="noreferrer">Open GitHub</a>
+            <a class="button secondary" href="https://www.serliunx.com" target="_blank" rel="noreferrer">Visit Blog</a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-main">
+          <p>© <span id="year"></span> Vincent Zhang / SerLiunx-ctrl</p>
+          <p>由 AI 生成的静态页面 / AI-generated static page.</p>
+        </div>
+        <p class="footer-icp">
+          <a href="https://beian.miit.gov.cn/" target="_blank" rel="noreferrer">湘ICP备2025133800号</a>
+        </p>
+      </footer>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
